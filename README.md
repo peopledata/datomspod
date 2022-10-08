@@ -9,9 +9,9 @@ datomspod，「数悦坊」实现数据资产安全、可信和隐私保护使�
 ```bash
 $ kubectl create ns datomspod
 $ kubectl config set-context --current --namespace datomspod 
-$ kubectl apply -f k8s/name_space.yml
-$ kubectl apply -f k8s/binding.yml
-$ kubectl apply -f k8s/todojob.yml
+$ kubectl apply -f https://github.com/peopledata/datomspod/blob/master/k8s/name_space.yml
+$ kubectl apply -f https://github.com/peopledata/datomspod/blob/master/k8s//binding.yml
+$ kubectl apply -f https://github.com/peopledata/datomspod/blob/master/k8s//todojob.yml
 ```
 3. kubectl exec -it datomspod-xxxx-xxx(kubectl get pods得到的pod id ) bash
 
